@@ -1,0 +1,57 @@
+/* This is my stylesheet */
+/*
+p {
+ color: #ff0000;
+ background-color: #0000FF;
+}
+*/
+
+h1 {
+  color: #000000;
+}
+
+h2 {
+  color: #ffffff;
+  background-color: #0000ff;
+}
+
+h3 {
+  color: #00ff00;
+}
+
+h4 {
+  color: #00ffff;
+}
+
+h5 {
+  color: #ff00ff;
+}
+a {
+ color: #ff0000;
+}
+
+a:visited {
+  color: #00ff00;
+}
+
+a:link {
+ color: #ff0000;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+#divexample {
+  color: #0000ff;
+  background-color: #ffff00;
+}
+#specialid {
+ color: #0000ff;
+ background-color: #00ff00;
+}
+
+.specialp {
+ color: #0000ff;
+ background-color: #ffffff
+}
