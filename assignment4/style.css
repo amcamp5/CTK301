@@ -1,0 +1,26 @@
+h1 {
+  color: #330000
+  font-style: italic;
+  font-weight: normal;
+}
+
+.customtext {
+  font-family: sans-serif;
+}
+
+
+.textcenter {
+text-align: center;
+}
+
+.imgbox {
+border: 10px solid #000000;
+padding: 10px 10px 10px 10px;
+background-color: #ffffff;
+}
+
+body {
+  background-color: #cccccc;
+  background-image: url(patch.jpg);
+  background-repeat: no-repeat
+  background-position: center center;
