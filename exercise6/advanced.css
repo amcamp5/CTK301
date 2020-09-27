@@ -1,0 +1,41 @@
+body {
+  background-color: #999999;
+ }
+
+#wrapper {
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  margin: 1em auto;
+  padding: 1em;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  padding: 10px;
+  border: 1px solid #000000;
+  margin: 10px;
+  width: 150px;
+}
+
+img {
+  clear: both;
+}
+
+p {
+  clear: both;
+}
+.floatimage {
+  width: 100px;
+  margin: 0 20px 20px 0;
+  float: left;
+}
+
+.p1 {
+  clear: both;
+}
