@@ -1,0 +1,44 @@
+body {
+  background-color: #999999;
+ }
+
+#wrapper {
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  margin: 1em auto;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px auto 75px;
+}
+
+h1 {
+  grid-column: span 12;
+  border: 1px solid red;
+}
+
+nav {
+  grid-column: span 3;
+    border: 1px solid red;
+}
+
+main {
+  grid-column: span 9;
+    border: 1px solid red;
+}
+
+footer {
+  grid-column: span 12;
+  border: 1px solid red;
+}
+
+.floatimage {
+  width: 100px;
+  margin: 0 20px 20px 0;
+  float: left;
+}
+
+.p1 {
+  clear: both;
+}
