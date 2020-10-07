@@ -1,0 +1,152 @@
+#wrapper {
+  width: 950px;
+  border: 4px solid #0451A9;
+  background-color: #ffffff;
+  margin: 1em auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+body {
+  background-color: #999999;
+}
+
+h1 {
+  grid-column: span 12;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  margin: 0;
+  font-family: helvetica;
+  font-style: italic;
+  font-weight: normal;
+  background-image: linear-gradient(to bottom, #59adf7, #4598e7, #3283d6, #1e6fc5, #035bb3);
+  color: #80DAFD;
+}
+
+h1 a{
+  color: #80DAFD;
+  text-decoration: none;
+}
+
+h1:hover {
+  background-image: linear-gradient(to top, #59adf7, #4598e7, #3283d6, #1e6fc5, #035bb3);
+}
+
+.borderbottom {
+  border-bottom: 3px solid #0451A9;
+  padding-bottom: 10px;
+}
+
+nav {
+  grid-column: span 12;
+  background-image: linear-gradient(to bottom, #59adf7, #4598e7, #3283d6, #1e6fc5, #035bb3);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+
+}
+
+nav li {
+  display: inline-block;
+  width: 240px;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+nav li a {
+  color: white;
+  font-family: helvetica;
+  padding: 10px 10px 10px 20px;
+  border-right: 4px solid #0451A9;
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom, #59adf7, #4598e7, #3283d6, #1e6fc5, #035bb3);
+  color: #80DAFD;
+}
+
+nav li a:hover {
+  text-decoration: none;
+  background-image: linear-gradient(to top, #59adf7, #4598e7, #3283d6, #1e6fc5, #035bb3);
+  color: #80DAFD;
+}
+
+
+h2 {
+  font-family: helvetica;
+  color: #0451A9;
+  font-weight: normal;
+}
+
+main {
+  grid-column: span 12;
+  margin-left: 40px;
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+footer {
+  grid-column: span 12;
+  border-top: 4px solid #0451A9;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  background-color: red;
+}
+
+.p1 {
+  font-family: Georgia;
+  font-weight: bold;
+  text-align: justify;
+  clear: left;
+}
+
+
+.floatimage {
+  border: 4px solid #0451A9;
+  width: 400px;
+  margin: 0 20px 10px 0;
+  float: left;
+}
+
+.floatimageright {
+  border: 4px solid #0451A9;
+  width: 400px;
+  margin: 0 0px 10px 10px;
+  float: right;
+}
+
+.floatimageleft {
+  border: 4px solid #0451A9;
+  width: 280px;
+  margin-right: 15px;
+  float: left;
+}
+
+.floatimagecenter {
+  border: 4px solid #0451A9;
+  width: 280px;
+  margin: 0;
+  float: centered;
+}
+
+.floatimageright2 {
+  border: 4px solid #0451A9;
+  width: 280px;
+  margin-left: 10px;
+  float: right;
+}
+
+span {
+  color: #ff0000;
+  font-weight: bold;
+}
