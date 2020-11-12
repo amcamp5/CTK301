@@ -103,13 +103,14 @@ main {
 
 section {
   border: 10px solid white;
-  grid-column: span 12;
-  float: right;
+  grid-column: span 1;
 }
+
 .roundedbox {
  padding: 15px 15px 30px 15px;
  border: 7px solid white;
  width: 450px;
+ float: right;
  background-color: #C9CFC3;
  border-radius: 20px;
  box-shadow: 5px 5px 10px #000; /* x, y, blur, color */
@@ -117,7 +118,7 @@ section {
 
 .roundedbox1 {
   width: 800px;
-  margin-right: 20px;
+  margin-left: 20px;
   margin-bottom: 30px;
   padding: 15px 15px 30px 15px;
   border: 7px solid white;
@@ -139,7 +140,6 @@ section {
   border-bottom-right-radius: 20px;
 }
 
-
 .roundedbox3 {
   width: 367px;
   margin-right: 20px;
@@ -150,6 +150,21 @@ section {
   background-color: #C9CFC3;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.roundedbox4 {
+  width: 830px;
+  border: 7px solid white;
+  background-color: #C9CFC3;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.portfolio {
+  width: 350px;
+  padding: 32px;
 }
 
 audio {
