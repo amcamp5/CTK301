@@ -79,15 +79,15 @@ nav li a:hover {
 h2 {
   font-family:'Barlow', sans-serif;
   color: #3A260C;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 300;
+  font-weight: bolder;
 }
 
 h2 a {
   color: #3A260C;
   font-size: 35px;
   text-decoration: none;
-  padding: 5px;
   transition: color .25s;
 }
 
@@ -96,6 +96,14 @@ h2 a:hover {
 }
 
 h3 {
+  font-family:'Barlow', sans-serif;
+  color: #3A260C;
+  font-size: 30px;
+  font-weight: 300;
+  padding-left: 15px;
+}
+
+h4 {
 font-family:'Barlow', sans-serif;
 color: #3A260C;
 font-size: 35px;
@@ -115,9 +123,9 @@ section {
 }
 
 .roundedbox {
- padding: 15px 15px 30px 15px;
+ padding: 0px 15px 15px 15px;
  border: 7px solid white;
- width: 450px;
+ width: 440px;
  float: right;
  background-color: #C9CFC3;
  border-radius: 20px;
@@ -128,7 +136,7 @@ section {
   width: 800px;
   margin-left: 20px;
   margin-bottom: 30px;
-  padding: 15px 15px 30px 15px;
+  padding: 15px 15px 15px 15px;
   border: 7px solid white;
   background-color: #C9CFC3;
   border-radius: 20px;
@@ -137,23 +145,20 @@ section {
 
 
 .roundedbox2 {
-  width: 367px;
-  margin-right: 20px;
+  width: 800px;
   margin-bottom: 30px;
-  margin-top: 20px;
+  margin-left: 20px;
   padding: 15px 15px 15px 15px;
   border: 7px solid white;
   background-color: #C9CFC3;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  float: right;
 }
 
 .roundedbox3 {
-  width: 367px;
-  margin-right: 20px;
+  width: 800px;
   margin-bottom: 30px;
-  margin-top: 20px;
+  margin-left: 20px;
   padding: 15px 15px 15px 15px;
   border: 7px solid white;
   background-color: #C9CFC3;
@@ -161,10 +166,34 @@ section {
   border-bottom-right-radius: 20px;
 }
 
+input[type=text]{
+  font-family:'Barlow', sans-serif;
+  color: #3A260C;
+  font-size: 18px;
+  font-weight: 200;
+  width: 850px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border: 3px solid white;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 5px 5px 10px #000; /* x, y, blur, color */
+  padding: 15px 15px 15px 15px;
+  box-sizing: border-box;
+  transition: .5s;
+  float: right;
+}
+
+input[type=text]:focus{
+  border-color: #3A260C;
+  box-shadow: 0 0 5px 0 #3A260C;
+}
+
 .roundedbox4 {
-  width: 830px;
+  width: 800px;
   border: 7px solid white;
   background-color: #C9CFC3;
+  padding: 15px 15px 15px 15px;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-bottom: 30px;
@@ -172,9 +201,10 @@ section {
 }
 
 .roundedbox5 {
-  width: 830px;
+  width: 800px;
   border: 7px solid white;
   background-color: #C9CFC3;
+  padding: 15px 15px 15px 15px;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-bottom: 30px;
@@ -182,33 +212,88 @@ section {
 }
 
 .roundedbox6 {
-  width: 830px;
+  width: 800px;
   border: 7px solid white;
   background-color: #C9CFC3;
+  padding: 15px 15px 15px 15px;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-bottom: 30px;
   margin-left: 20px;
 }
 
+.roundedbox7 {
+  width: 800px;
+  border: 7px solid white;
+  background-color: #C9CFC3;
+  padding: 15px 15px 15px 15px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.roundedbox8 {
+  width: 343px;
+  border: 7px solid white;
+  background-color: #C9CFC3;
+  padding: 15px 15px 15px 15px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #000; /* x, y, blur, color */
+  margin-left: 14px;
+  float: right;
+}
+
+.roundedbox9 {
+  width: 840px;
+  border: 7px solid white;
+  background-color: #C9CFC3;
+  padding: 15px 15px 15px 15px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #000; /* x, y, blur, color */
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
 .pentax {
-  width: 200px;
-  padding: 37px;
+  width: 225px;
+  padding: 20px;
 }
 
 .lumens {
-  width: 200px;
-  padding: 37px;
+  width: 225px;
+  padding: 20px;
 }
 
-.photograms{
-  width: 340px;
-  padding: 37px;
+.photograms {
+  width: 355px;
+  padding: 20px;
+}
+
+.cyanotypes {
+  width: 355px;
+  padding: 20px;
+}
+
+.footer {
+  color: #3A260C;
+  padding: 2px;
+  grid-column: span 12;
+  text-align: center;
 }
 
 audio {
   width: 500px;
   padding: 15px;
+}
+
+video {
+  height: 320px;
+  border: 7px solid white;
+  background-color: #C9CFC3;
+  padding: 0px 15px 40px 15px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 #example {
@@ -239,9 +324,10 @@ footer a:hover{
 
 p {
   color: #3A260C;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Barlow', sans-serif;
   font-weight: 200;
+  text-align: justify;
 }
 
 .photo1 {
@@ -292,7 +378,7 @@ p {
 
 #mainimg {
   grid-column: span 3;
-  width: 325px;
+  width: 335px;
   border-radius: 20px;
   padding: 10px;
   border: 7px solid white;
