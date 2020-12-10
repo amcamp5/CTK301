@@ -3,7 +3,7 @@ body {
 }
 
 #wrapper {
-  width: 950px;
+  width: 1100px;
   background-color: #C9CFC3;
   margin: 1em auto;
   display: grid;
@@ -11,7 +11,8 @@ body {
 }
 
 header {
-  width: 950px;
+  grid-column: span 12;
+  width: 1000px;
   background-color: #C9CFC3;
   display: inline-block;
   margin: 0;
@@ -36,8 +37,8 @@ h1 {
 .h1 {
   text-align: center;
   color: #3A260C;
-  margin-left: 50px;
-  margin-right: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
   margin-top: 10px;
   font-size: 50px;
   font-weight: 300 bolder;
@@ -45,7 +46,6 @@ h1 {
   display: inline-block;
   font-family:'Barlow', sans-serif;
   padding:0;
-  text-shadow: 2px 2px 0px #ffffff;/* x, y, blur, color */
 }
 
 h1 a {
@@ -54,15 +54,12 @@ h1 a {
 }
 
 nav {
-  grid-column: span 1 2 3 4 9 10 11 12;
+  grid-column: span 12;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
-  margin-top: 0;
-  margin-left: 0;
-  margin-bottom: 0;
 }
 
 nav li {
@@ -71,11 +68,12 @@ nav li {
 }
 
 nav li a {
+  grid-column: span 12;
   color: #3A260C;
   font-family: 'Barlow', sans-serif;
   padding: 10px 10px 15px 10px;
-  margin-left: 35px;
-  margin-right: 30px;
+  margin-left: 120px;
+  margin-right: 100px;
   font-size: 25px;
   text-align: center;
   display: block;
@@ -86,15 +84,14 @@ nav li a {
 
 nav li a:hover {
   text-decoration: none;
-  color: #C9CFC3;
-  background-color: #3A260C;
+  color: white;
 }
 
 
 h2 {
   font-family:'Barlow', sans-serif;
   color: #3A260C;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 300;
   font-weight: bolder;
 }
@@ -113,9 +110,9 @@ h2 a:hover {
 h3 {
   font-family:'Barlow', sans-serif;
   color: #3A260C;
-  font-size: 30px;
-  font-weight: 300;
-  padding-left: 15px;
+  font-size: 35px;
+  font-weight: 200;
+  text-align: center;
 }
 
 h4 {
@@ -139,8 +136,8 @@ section {
 .roundedbox {
  padding: 0px 15px 5px 15px;
  border: 7px solid white;
- width: 400px;
- margin-right: 10px;
+ width: 300px;
+ margin-right: 100px;
  margin-top: 8px;
  margin-bottom: 30px;
  float: right;
@@ -150,8 +147,8 @@ section {
 
 .roundedbox1 {
   width: 800px;
-  margin-left: 20px;
-  margin-bottom: 30px;
+  margin-left: 90px;
+  margin-bottom: 20px;
   padding: 0px 15px 15px 15px;
   border: 7px solid white;
   background-color: #C9CFC3;
@@ -205,50 +202,70 @@ input[type=text]:focus{
 }
 
 .roundedbox4 {
-  width: 800px;
-  border: 7px solid white;
+  grid-column: span 12;
+  border: #C9CFC3;
   background-color: #C9CFC3;
   padding: 15px 15px 15px 15px;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
   margin-bottom: 30px;
-  margin-left: 20px;
 }
 
 .roundedbox5 {
-  width: 800px;
-  border: 7px solid white;
+  grid-column: span 12;
+  border: #C9CFC3;
   background-color: #C9CFC3;
   padding: 15px 15px 15px 15px;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
   margin-bottom: 30px;
-  margin-left: 20px;
 }
 
 .roundedbox6 {
-  width: 800px;
-  border: 7px solid white;
+  grid-column: span 12;
+  border: #C9CFC3;
   background-color: #C9CFC3;
   padding: 15px 15px 15px 15px;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
   margin-bottom: 30px;
-  margin-left: 20px;
 }
 
 .roundedbox7 {
-  width: 800px;
-  border: 7px solid white;
+  grid-column: span 12;
+  border: #C9CFC3;
   background-color: #C9CFC3;
   padding: 15px 15px 15px 15px;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
   margin-bottom: 30px;
-  margin-left: 20px;
 }
 
 .roundedbox8 {
+  grid-column: span 12;
+  border: #C9CFC3;
+  background-color: #C9CFC3;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 30px;
+}
+
+.roundedbox9 {
+  grid-column: span 12;
+  border: #C9CFC3;
+  background-color: #C9CFC3;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 30px;
+}
+
+.roundedbox10 {
+  grid-column: span 12;
+  border: #C9CFC3;
+  background-color: #C9CFC3;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 30px;
+}
+
+.roundedbox11 {
+  grid-column: span 12;
+  border: #C9CFC3;
+  background-color: #C9CFC3;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 30px;
+}
+
+.roundedbox12 {
   width: 360px;
   border: 7px solid white;
   background-color: #C9CFC3;
@@ -259,7 +276,7 @@ input[type=text]:focus{
   float: right;
 }
 
-.roundedbox9 {
+.roundedbox13 {
   width: 840px;
   border: 7px solid white;
   background-color: #C9CFC3;
@@ -270,7 +287,7 @@ input[type=text]:focus{
   margin-top: 30px;
 }
 
-.roundedbox10 {
+.roundedbox14 {
   width: 840px;
   border: 7px solid white;
   background-color: #C9CFC3;
@@ -280,24 +297,61 @@ input[type=text]:focus{
   margin-top: 30px;
 }
 
+.charcoal {
+width: 1000px;
+}
+.rb4 {
+
+}
+
+.pastels {
+width: 1000px;
+}
+.rb5 {
+
+}
+
+.mediums {
+width: 500px;
+float: center;
+}
+.rb6 {
+
+}
+
+.sculpture {
+width: 400px;
+}
+.rb7 {
+
+}
+
 .pentax {
-  width: 225px;
-  padding: 20px;
+width: 1000px;
+}
+.rb8 {
+
 }
 
 .lumens {
-  width: 225px;
-  padding: 20px;
+width: 600px;
+}
+.rb9 {
+
 }
 
-.photograms {
-  width: 355px;
-  padding: 20px;
+.photogram {
+width: 600px;
+}
+.rb10 {
+
 }
 
 .cyanotypes {
-  width: 355px;
-  padding: 20px;
+width: 300px;
+}
+.rb11 {
+
 }
 
 .footer {
@@ -397,49 +451,17 @@ p {
   float: right;
 }
 
-#homemainimg {
-  grid-column: span 12;
-  width: 885px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border-radius: 20px;
-  background-color: #C9CFC3;
-}
-
 #aboutmainimg {
-  grid-column: span 4;
-  width: 395px;
+  grid-column: span 6;
+  width: 465px;
   margin-bottom: 30px;
+  margin-left: 80px;
   border-radius: 20px;
   padding: 10px;
   background-color: #C9CFC3;
 }
 
-.homeimgthumb1 {
-  grid-column: span 12;
-  width: 885px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  border-radius: 20px;
-}
-
-.homeimgthumb2 {
-  grid-column: span 12;
-  width: 200px;
-  margin: 0px 137px 10px 0px;
-  border-radius: 10px;
-}
-
-.homeimgthumb3 {
-  grid-column: span 12;
-  width: 200px;
-  margin: 0px 137px 10px 0px;
-  border-radius: 10px;
-}
-
-.homeimgthumb4 {
-  grid-column: span 12;
-  width: 200px;
-  margin: 0px 0px 10px 0px;
-  border-radius: 10px;
+.cycle-slideshow {
+  width: 1000px;
+  height: auto;
 }
