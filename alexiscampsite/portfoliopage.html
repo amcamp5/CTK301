@@ -4,23 +4,22 @@
 	<meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="https://malsup.github.com/jquery.cycle2.js"></script>
+	<script src="https://malsup.github.io/jquery.cycle2.center.js"></script>
 	<link href="mysite.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div id="wrapper">
 		<header>
-		<nav>
-			<ul>
-				<li><a href="aboutpage.html" >about</a></li>
-				<li><a href="portfoliopage.html" >portfolio</a></li>
-				<li><a class="h1" href="homepage.html" >alexis<br>camp</a></li>
-				<li><a href="videopage.html" >video</a></li>
-				<li><a href="contactpage.html" >contact</a></li>
-			</ul>
-		</nav>
-	</header>
+			<nav>
+					<a href="aboutpage.html" >about</a>
+					<a href="portfoliopage.html" >portfolio</a>
+					<a class="h1" href="homepage.html">alexis<br>camp</a>
+					<a href="videopage.html" >video</a>
+					<a href="contactpage.html" >contact</a>
+			</nav>
+		</header>
 	<main>
     <section class="roundedbox1">
       <h2> my portfolio. </h2>
@@ -29,141 +28,113 @@
 			Take a scroll, if you are so bold, and message me with any thoughts you have on my work!</p>
 		</section>
 
-		<section class="roundedbox4">
-			<h3> charcoal drawings. </h3>
-			<div class="cycle-slideshow" data-cycle-fx="scrollHorz"data-cycle-timeout="0"data-cycle-prev="#prev"data-cycle-next="#next">
-				<img class="charcoal" src="charcoal1.jpg">
-				<img class="charcoal" src="charcoal2.jpg">
-				<img class="charcoal" src="charcoal3.jpg">
-				<img class="charcoal" src="charcoal4.jpg">
-				<img class="charcoal" src="charcoal5.jpg">
+		<h3> charcoal drawings. </h3>
+			<div class="homepageslides">
+				<a href=# id="prev1">prev</a>
+				<a href=# id="next1">next</a>
+			</div>
+			<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout="0" data-cycle-center-vert=true  data-cycle-center-horz=true data-cycle-prev="#prev1" data-cycle-next="#next1">
+				<img src="charcoal1.jpg" width=930 height=650>
+				<img src="charcoal2.jpg" width=930 height=650>
+				<img src="charcoal3.jpg" width=930 height=650>
+				<img src="charcoal4.jpg" width=930 height=650>
+				<img src="charcoal5.jpg" width=930 height=650>
 			</div>
 
-			<div class="rb4">
-				<a href=# id="prev">Prev</a>
-				<a href=# id="next">Next</a>
-			</div>
-		</section>
-
-		<section class="roundedbox5">
 			<h3> pastel drawings. </h3>
-			<div class="cycle-slideshow" data-cycle-fx="scrollHorz"data-cycle-timeout="0"data-cycle-prev="#prev"data-cycle-next="#next">
-				<img class="pastels" src="pastels1.jpg">
-				<img class="pastels" src="pastels2.jpg">
-			</div>
+				<div class="homepageslides">
+					<a href=# id="prev2">prev</a>
+					<a href=# id="next2">next</a>
+				</div>
+				<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout="0" data-cycle-center-vert=true  data-cycle-center-horz=true data-cycle-prev="#prev2" data-cycle-next="#next2">
+					<img src="pastels1.jpg" width=930 height=625>
+					<img src="pastels2.jpg" width=930 height=625>
+					<img src="pastels3.jpg" width=550 height=750>
+				</div>
 
-			<div class="rb5">
-				<a href=# id="prev">Prev</a>
-				<a href=# id="next">Next</a>
-			</div>
-		</section>
-
-		<section class="roundedbox6">
 			<h3> mixed mediums. </h3>
-			<div class="cycle-slideshow" data-cycle-fx="scrollHorz"data-cycle-timeout="0"data-cycle-prev="#prev"data-cycle-next="#next">
-				<img class="mediums" src="mixedmediums1.jpg">
-				<img class="mediums" src="mixedmediums2.jpg">
-			</div>
+				<div class="homepageslides">
+					<a href=# id="prev3">prev</a>
+					<a href=# id="next3">next</a>
+				</div>
+				<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout="0" data-cycle-center-vert=true  data-cycle-center-horz=true data-cycle-prev="#prev3" data-cycle-next="#next3">
+					<img src="mixedmediums1.jpg" width=550 height=750>
+					<img src="mixedmediums2.jpg" width=550 height=750>
+				</div>
 
-			<div class="rb6">
-				<a href=# id="prev">Prev</a>
-				<a href=# id="next">Next</a>
-			</div>
-		</section>
+				<h3> 3-D sculpture. </h3>
+					<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout="0" data-cycle-center-vert=true  data-cycle-center-horz=true data-cycle-prev="#prev4" data-cycle-next="#next4">
+						<img src="sculpture1.jpg" width=400 height=750>
+					</div>
 
-		<section class="roundedbox7">
-			<h3> 3-D sculpture. </h3>
-			<div class="cycle-slideshow" data-cycle-fx="scrollHorz"data-cycle-timeout="0"data-cycle-prev="#prev"data-cycle-next="#next">
-				<img class="sculpture" src="sculpture1.jpg">
-			</div>
+				<h3> pentax photography. </h3>
+					<div class="homepageslides">
+						<a href=# id="prev4">prev</a>
+						<a href=# id="next4">next</a>
+					</div>
+					<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout="0" data-cycle-center-vert=true  data-cycle-center-horz=true data-cycle-prev="#prev4" data-cycle-next="#next4">
+						<img src="car.png" width=930 height=650>
+						<img src="lights.jpg" width=930 height=650>
+						<img src="lion.jpg" width=930 height=650>
+						<img src="trees.png" width=930 height=650>
+						<img src="watty.jpg" width=930 height=650>
+						<img src="window1.png" width=930 height=650>
+						<img src="rocks.jpg" width=930 height=650>
+						<img src="charlie.jpg" width=930 height=650>
+						<img src="building.jpg" width=930 height=650>
+						<img src="rearview.jpg" width=930 height=650>
+						<img src="shoes.jpg" width=930 height=650>
+					</div>
 
-			<div class="rb7">
-				<a href=# id="prev">Prev</a>
-				<a href=# id="next">Next</a>
-			</div>
-		</section>
+					<h3> lumen prints. </h3>
+						<div class="homepageslides">
+							<a href=# id="prev5">prev</a>
+							<a href=# id="next5">next</a>
+						</div>
+						<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout="0" data-cycle-center-vert=true  data-cycle-center-horz=true data-cycle-prev="#prev5" data-cycle-next="#next5">
+							<img src="lumen2.png" width=600 height=750>
+							<img src="lumen3.png" width=600 height=750>
+							<img src="lumen4.png" width=600 height=750>
+							<img src="lumen5.png" width=600 height=750>
+							<img src="lumen1.png" width=930 height=650>
+							<img src="lumen6.png" width=930 height=650>
+						</div>
 
-		<section class="roundedbox8">
-		<h3> pentax photography. </h3>
-			<div class="cycle-slideshow" data-cycle-fx="scrollHorz"data-cycle-timeout="0"data-cycle-prev="#prev"data-cycle-next="#next">
-    		<img class="pentax" src="car.png">
-    		<img class="pentax" src="lights.jpg">
-    		<img class="pentax" src="lion.jpg">
-    		<img class="pentax" src="trees.png">
-		  	<img class="pentax" src="watty.jpg">
-			  <img class="pentax" src="window1.png">
-				<img class="pentax" src="rocks.jpg">
-				<img class="pentax" src="charlie.jpg">
-				<img class="pentax" src="building.jpg">
-				<img class="pentax" src="rearview.jpg">
-				<img class="pentax" src="shoes.jpg">
-			</div>
+						<h3> photograms. </h3>
+							<div class="homepageslides">
+								<a href=# id="prev6">prev</a>
+								<a href=# id="next6">next</a>
+							</div>
+							<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout="0" data-cycle-center-vert=true  data-cycle-center-horz=true data-cycle-prev="#prev6" data-cycle-next="#next6">
+								<img src="photogram1.png" width=930 height=650>
+								<img src="photogram2.png" width=930 height=650>
+								<img src="photogram3.png" width=930 height=650>
+								<img src="photogram4.png" width=930 height=650>
+								<img src="photogram5.png" width=930 height=650>
+								<img src="photogram6.png" width=930 height=650>
+								<img src="photogram7.png" width=930 height=650>
+								<img src="photogram8.png" width=930 height=650>
+							</div>
 
-			<div class="rb8">
-    		<a href=# id="prev">Prev</a>
-    		<a href=# id="next">Next</a>
-			</div>
-		</section>
-
-		<section class="roundedbox9">
-			<h3> lumen prints. </h3>
-			<div class="cycle-slideshow" data-cycle-fx="scrollHorz"data-cycle-timeout="0"data-cycle-prev="#prev"data-cycle-next="#next">
-    		<img class="lumens" src="lumen2.png">
-    		<img class="lumens" src="lumen3.png">
-    		<img class="lumens" src="lumen4.png">
-    		<img class="lumens" src="lumen5.png">
-		  	<img class="lumens" src="lumen1.png">
-			  <img class="lumens" src="lumen6.png">
-			</div>
-
-			<div class="rb9">
-    		<a href=# id="prev">Prev</a>
-    		<a href=# id="next">Next</a>
-			</div>
-		</section>
-
-		<section class="roundedbox10">
-			<h3> photograms. </h3>
-			<div class="cycle-slideshow" data-cycle-fx="scrollHorz"data-cycle-timeout="0"data-cycle-prev="#prev"data-cycle-next="#next">
-				<img class="photogram" src="photogram1.png">
-				<img class="photogram" src="photogram2.png">
-				<img class="photogram" src="photogram3.png">
-				<img class="photogram" src="photogram4.png">
-				<img class="photogram" src="photogram5.png">
-				<img class="photogram" src="photogram6.png">
-				<img class="photogram" src="photogram7.png">
-				<img class="photogram" src="photogram8.png">
-			</div>
-
-			<div class="rb10">
-				<a href=# id="prev">Prev</a>
-				<a href=# id="next">Next</a>
-			</div>
-		</section>
-
-		<section class="roundedbox11">
-			<h3> cyanotypes. </h3>
-			<div class="cycle-slideshow" data-cycle-fx="scrollHorz"data-cycle-timeout="0"data-cycle-prev="#prev"data-cycle-next="#next">
-				<img class="cyanotype" src="cyanotype1.jpg">
-				<img class="cyanotype" src="cyanotype2.jpg">
-				<img class="cyanotype" src="cyanotype3.jpg">
-				<img class="cyanotype" src="cyanotype4.jpg">
-				<img class="cyanotype" src="cyanotype5.jpg">
-				<img class="cyanotype" src="cyanotype6.jpg">
-				<img class="cyanotype" src="cyanotype7.jpg">
-				<img class="cyanotype" src="cyanotype8.jpg">
-				<img class="cyanotype" src="cyanotype9.jpg">
-				<img class="cyanotype" src="cyanotype10.jpg">
-				<img class="cyanotype" src="cyanotype11.jpg">
-				<img class="cyanotype" src="cyanotype12.jpg">
-			</div>
-
-			<div class="rb11">
-				<a href=# id="prev">Prev</a>
-				<a href=# id="next">Next</a>
-			</div>
-		</section>
-
+							<h3> cyanotypes. </h3>
+								<div class="homepageslides">
+									<a href=# id="prev7">prev</a>
+									<a href=# id="next7">next</a>
+								</div>
+								<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout="0" data-cycle-center-vert=true  data-cycle-center-horz=true data-cycle-prev="#prev7" data-cycle-next="#next7">
+									<img src="cyanotype1.jpg" width=525 height=750>
+									<img src="cyanotype2.jpg" width=525 height=750>
+									<img src="cyanotype3.jpg" width=525 height=750>
+									<img src="cyanotype4.jpg" width=525 height=750>
+									<img src="cyanotype5.jpg" width=525 height=750>
+									<img src="cyanotype6.jpg" width=525 height=750>
+									<img src="cyanotype7.jpg" width=930 height=650>
+									<img src="cyanotype8.jpg" width=525 height=750>
+									<img src="cyanotype9.jpg" width=525 height=750>
+									<img src="cyanotype10.jpg" width=525 height=750>
+									<img src="cyanotype11.jpg" width=525 height=750>
+									<img src="cyanotype12.jpg" width=525 height=750>
+								</div>
 
 	</main>
 		<footer>

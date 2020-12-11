@@ -6,86 +6,37 @@
 	<title>alexis camp site</title>
 	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="https://malsup.github.com/jquery.cycle2.js"></script>
+	<script src="https://malsup.github.io/jquery.cycle2.center.js"></script>
 	<link href="mysite.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div id="wrapper">
 		<header>
 		<nav>
-			<ul>
-				<li><a href="aboutpage.html" >about</a></li>
-				<li><a href="portfoliopage.html" >portfolio</a></li>
-				<li><a class="h1" href="homepage.html" >alexis<br>camp</a></li>
-				<li><a href="videopage.html" >video</a></li>
-				<li><a href="contactpage.html" >contact</a></li>
-			</ul>
+				<a href="aboutpage.html" >about</a>
+				<a href="portfoliopage.html" >portfolio</a>
+				<a class="h1" href="homepage.html">alexis<br>camp</a>
+				<a href="videopage.html" >video</a>
+				<a href="contactpage.html" >contact</a>
 		</nav>
 	</header>
 	<main>
-  <div class="slideshow-container">
 
-  <div class="mySlides fade">
-    <img src="photogram3.png" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="lumen6.png" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="charcoal1.jpg" style="width:100%">
-  </div>
-
-	<div class="mySlides fade">
-		<img src="cyanotype7.jpg" style="width:100%">
-	</div>
-
-	<div class="mySlides fade">
-		<img src="rocks.jpg" style="width:100%">
-	</div>
-
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-  </div>
-  <br>
-
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-		<span class="dot" onclick="currentSlide(4)"></span>
-		<span class="dot" onclick="currentSlide(5)"></span>
-  </div>
-
-  <script>
-  var slideIndex = 1;
-  showSlides(slideIndex);
-
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-
-  function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-  }
-  </script>
+	<h1> welcome to my website!</h1>
+		<div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout="4000" data-cycle-center-vert=true  data-cycle-center-horz=true data-cycle-prev="#prev" data-cycle-next="#next">
+			<img src="photogram3.png" width=930 height=700>
+			<img src="lumen4.png" width=550 height=750>
+			<img src="cyanotype4.jpg" width=550 height=750>
+			<img src="charcoal3.jpg" width=930 height=700>
+			<img src="pastels3.jpg" width=550 height=750>
+			<img src="window1.png" width=930 height=700>
+		</div>
+		<div class="homepageslides">
+			<a href=# id="prev">prev</a>
+			<a href=# id="next">next</a>
+		</div>
 
 	</main>
 	<div id="soundcloud">
