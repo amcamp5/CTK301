@@ -106,18 +106,6 @@ section {
   grid-column: span 12;
 }
 
-.roundedbox {
- padding: 0px 15px 0px 15px;
- border: 7px solid white;
- width: 300px;
- margin-right: 100px;
- margin-top: 8px;
- margin-bottom: 30px;
- float: right;
- background-color: #C9CFC3;
- border-radius: 20px;
-}
-
 .roundedbox1 {
   width: 900px;
   margin: 30px 0px 50px 0px;
@@ -181,30 +169,6 @@ input[type=text]:focus{
   border-bottom-right-radius: 10px;
 }
 
-.roundedbox5 {
-  grid-column: span 12;
-  border: #C9CFC3;
-  background-color: #C9CFC3;
-  padding: 15px 15px 15px 15px;
-  margin-bottom: 30px;
-}
-
-.roundedbox6 {
-  grid-column: span 12;
-  border: #C9CFC3;
-  background-color: #C9CFC3;
-  padding: 15px 15px 15px 15px;
-  margin-bottom: 30px;
-}
-
-.roundedbox7 {
-  grid-column: span 12;
-  border: #C9CFC3;
-  background-color: #C9CFC3;
-  padding: 15px 15px 15px 15px;
-  margin-bottom: 30px;
-}
-
 .footer {
   color: #3A260C;
   grid-column: span 12;
@@ -253,31 +217,6 @@ p {
   text-align: justify;
 }
 
-.photo1 {
-    border: 7px solid white;
-    padding: 10px;
-    margin-right: 28px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 396px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    float: left;
-    background-color: #C9CFC3;
-}
-
-.photo2 {
-    border: 7px solid white;
-    padding: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 378px;
-    float: left;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-color: #C9CFC3;
-}
-
 #aboutmainimg {
   grid-column: span 12;
   width: 392px;
@@ -297,6 +236,16 @@ p {
 .homepageslides {
   text-align: center;
   margin-bottom: 5px;
+}
+
+.homepageslides a{
+  color: #3A260C;
+  text-decoration: none;
+  transition: color .25s;
+}
+
+.homepageslides a:hover {
+  color: white;
 }
 
 #prev {
